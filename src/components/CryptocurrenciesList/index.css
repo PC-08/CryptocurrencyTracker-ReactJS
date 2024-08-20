@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.head {
+  color: #00e7ff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ul {
+  border-radius: 10px;
+  border: 3px solid #00e7ff;
+  padding: 20px;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.cur-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cur {
+  padding-right: 60px;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .logo-m {
+    width: 300px;
+  }
+
+  .ul {
+    width: 320px;
+  }
+
+  .head {
+    font-size: 18px;
+  }
+}

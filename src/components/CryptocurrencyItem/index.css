@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.li {
+  list-style-type: none;
+  display: flex;
+
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50px;
+}
+
+.li-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-cur {
+  margin-left: 30px;
+}
+
+.li-title {
+  padding: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 30px;
+  }
+}

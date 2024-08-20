@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.bg {
+  background-color: #000000;
+  font-family: 'roboto';
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
